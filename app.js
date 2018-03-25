@@ -5,17 +5,19 @@
 //display winner
 //for (let i=0; i < 10; i++) {
 
-	document.addEventListener("keydown", (event) => {
-		if (event.keyCode == 39); {
-			first.style.paddingLeft = "20px";
-			first.style.paddingRight = "-20px";
-			
-		}
-	})
-//}
+let car1 = document.getElementById("first");
+let car2 = document.getElementById("second");
 
 
-//first.addEventListener("keydown",() => {
+let car1Left = 0;
+
+let move = (e) => {
+	if(e.keyCode == 39) {
+		car1Left +=10;
+		car1.style.left = car1Left + 'px';
+	}
+}
+document.onkeydown = move;
 
 //	right arrow 39, d 68
 

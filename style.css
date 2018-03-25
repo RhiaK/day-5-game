@@ -2,9 +2,12 @@ header {
 	text-align: center;
 	font-family: 'Gloria Hallelujah', cursive;
 }
-img {
+#first, #second {
 	height: auto;
 	width: 100px;
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 
 #finishLine {
@@ -18,10 +21,3 @@ body {
 	background-color: aliceblue;
 }
 
-#first {
-	padding-left: 10px
-}
-
-#second {
-	padding-left: 10px
-}

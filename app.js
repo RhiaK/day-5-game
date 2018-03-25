@@ -9,14 +9,20 @@ let car1 = document.getElementById("first");
 let car2 = document.getElementById("second");
 
 
-let car1Left = 0;
+let carLeft = 0;
 
 let move = (e) => {
 	if(e.keyCode == 39) {
-		car1Left +=10;
-		car1.style.left = car1Left + 'px';
+		carLeft +=10;
+		car1.style.left = carLeft + 'px';
+	}
+	if(e.keyCode == 68) {
+		carLeft +=10;
+		car2.style.left = carLeft + 'px';
 	}
 }
+
+
 document.onkeydown = move;
 
 //	right arrow 39, d 68

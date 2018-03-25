@@ -2,6 +2,13 @@ header {
 	text-align: center;
 	font-family: 'Gloria Hallelujah', cursive;
 }
+
+#board {
+	width: 1300px;
+	height: 125px;
+	position: absolute;
+}
+
 #first, #second {
 	height: auto;
 	width: 100px;

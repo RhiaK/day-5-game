@@ -3,7 +3,6 @@
 //they need to stop when they reach the sign
 //check for winner
 //display winner
-//for (let i=0; i < 10; i++) {
 
 let car1 = document.getElementById("first");
 let car2 = document.getElementById("second");
@@ -15,12 +14,19 @@ let move = (e) => {
 	if(e.keyCode == 39) {
 		carLeft +=10;
 		car1.style.left = carLeft + 'px';
-	}
+		if(carLeft >= 1200) {
+			alert("You have won!!!!");
+		}}
+	
 	if(e.keyCode == 68) {
 		carLeft +=10;
 		car2.style.left = carLeft + 'px';
-	}
-}
+		if(carLeft >= 1200) {
+			alert("You have won!!!!");
+}}}
+
+ 
+
 
 
 document.onkeydown = move;

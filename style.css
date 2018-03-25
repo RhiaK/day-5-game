@@ -18,10 +18,10 @@ body {
 	background-color: aliceblue;
 }
 
-th {
-	width: 100px;
+#first {
+	padding-left: 10px
 }
 
-/*th {
-	color: aliceblue;
+#second {
+	padding-left: 10px
 }

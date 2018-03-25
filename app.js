@@ -3,18 +3,21 @@
 //they need to stop when they reach the sign
 //check for winner
 //display winner
+//for (let i=0; i < 10; i++) {
 
-let first = [{image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0O981pFeBSJiiANkGNeIJCdmCMFYW2F8fI80bk4ckCbgNlDldPw"}, 
-"acar", "bcar", "ccar", "dcar", "ecar", "fcar", "gcar", "hcar", "icar", "jcar", "kcar"];
-
-let second = [{image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7h1576-FhgbaVBkqI44gmEP6s4HdsjfSbcaaq2SkVAu3D-0PnEA"},"aca2", "bca2", "cca2", "dca2", "eca2", "fca2", "gca2", "hca2", "ica2", "jca2", "kca2"];
-
-console.log(first[0]);
+	document.addEventListener("keydown", (event) => {
+		if (event.keyCode == 39); {
+			first.style.paddingLeft = "20px";
+			first.style.paddingRight = "-20px";
+			
+		}
+	})
+//}
 
 
 //first.addEventListener("keydown",() => {
 
-//	alert("yea");
+//	right arrow 39, d 68
 
 //});
 

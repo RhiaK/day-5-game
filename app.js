@@ -6,6 +6,7 @@
 
 let car1 = document.getElementById("first");
 let car2 = document.getElementById("second");
+let button = document.getElementById("button");
 
 
 let carLeft = 0;
@@ -15,21 +16,20 @@ let move = (e) => {
 		carLeft +=10;
 		car1.style.left = carLeft + 'px';
 		if(carLeft >= 1200) {
-			alert("You have won!!!!");
+			alert("Purple Car Won!!!!");
 		}}
 	
 	if(e.keyCode == 68) {
 		carLeft +=10;
 		car2.style.left = carLeft + 'px';
 		if(carLeft >= 1200) {
-			alert("You have won!!!!");
+			alert("Red Car Won!!!!");
 }}}
 
- 
-
-
-
 document.onkeydown = move;
+
+button.addEventListener("click", car2.style.left= "0px");
+
 
 //	right arrow 39, d 68
 

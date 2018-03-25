@@ -1,6 +1,10 @@
 header {
 	text-align: center;
-	font-family: 'Gloria Hallelujah', cursive;
+	
+}
+
+body {
+ 	font-family: 'Gloria Hallelujah', cursive;
 }
 
 #board {
@@ -26,5 +30,9 @@ header {
 }
 body {
 	background-color: aliceblue;
+}
+
+button {
+	text-align: right;
 }
 

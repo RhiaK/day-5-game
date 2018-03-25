@@ -17,3 +17,11 @@ img {
 body {
 	background-color: aliceblue;
 }
+
+th {
+	width: 100px;
+}
+
+/*th {
+	color: aliceblue;
+}

@@ -6,7 +6,7 @@
 
 let car1 = document.getElementById("first");
 let car2 = document.getElementById("second");
-let button = document.getElementById("button");
+
 
 
 let carLeft = 0;
@@ -30,17 +30,3 @@ let move = (e) => {
 document.onkeydown = move;
 
 
-//	right arrow 39, d 68
-
-//});
-
-
-
-
-
-
-
-
-
-
-//if button press, remove last space in array, right justify

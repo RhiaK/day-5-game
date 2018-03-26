@@ -10,6 +10,7 @@ let button = document.getElementById("button");
 
 
 let carLeft = 0;
+let carLeft2 = 0;
 
 let move = (e) => {
 	if(e.keyCode == 39) {
@@ -20,15 +21,13 @@ let move = (e) => {
 		}}
 	
 	if(e.keyCode == 68) {
-		carLeft +=10;
-		car2.style.left = carLeft + 'px';
-		if(carLeft >= 1200) {
+		carLeft2 +=10;
+		car2.style.left = carLeft2 + 'px';
+		if(carLeft2 >= 1200) {
 			alert("Red Car Won!!!!");
 }}}
 
 document.onkeydown = move;
-
-button.addEventListener("click", car2.style.left= "0px");
 
 
 //	right arrow 39, d 68

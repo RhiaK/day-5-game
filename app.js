@@ -14,19 +14,19 @@ let carLeft2 = 0;
 
 let move = (e) => {
 	if(e.keyCode == 39) {
-		carLeft +=10;
+		carLeft +=50;
 		car1.style.left = carLeft + 'px';
 		if(carLeft >= 1300) {
 			alert("Purple Baloon Won!!!!");
 		}}
 	
 	if(e.keyCode == 68) {
-		carLeft2 +=10;
+		carLeft2 +=50;
 		car2.style.left = carLeft2 + 'px';
 		if(carLeft2 >= 1300) {
 			alert("Rainbow Baloon Won!!!!");
 }}}
 
-document.onkeydown = move;
+document.addEventListener('keydown', (move));
 
 
